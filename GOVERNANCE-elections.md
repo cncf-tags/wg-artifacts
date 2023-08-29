@@ -54,7 +54,6 @@ The [TODO: PROJECTNAME] and its leadership embrace the following values:
   participation, and there is a clear path up the contributor ladder into leadership
   positions.
 
-
 ## Charter
 
 The following responsibilities and powers belong to the Steering Committee.
@@ -116,7 +115,6 @@ first name):
 
 | &nbsp;                                                         | Member           | Organization |
 | -------------------------------------------------------------- | ---------------- | ------------ |
-
 
 ## Decision process
 

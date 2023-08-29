@@ -18,7 +18,7 @@ that you need.
 
 Each file is a template with instructions to customize the contents for your project.
 Most files use comments with TODO to call out where you need to make changes. We recommend
-viewing the files in raw or text form so that you can see the comments. 
+viewing the files in raw or text form so that you can see the comments.
 
 For example in markdown files, we use `<!-- TODO: ... -->` to provide additional
 guidance or indicate where action is required but you won't see those comments

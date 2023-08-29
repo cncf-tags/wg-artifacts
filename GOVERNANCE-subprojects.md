@@ -46,6 +46,7 @@ The [TODO: PROJECTNAME] and its leadership embrace the following values:
 [Instructions](https://contribute.cncf.io/maintainers/github/templates/required/governance-subprojects/#subprojects)
 
 [TODO:PROJECTNAME]'s Subprojects are:
+
 * [TODO:LIST OF SUBPROJECTS]
 
 All active Maintainers of each subproject, as defined in the Contributor Ladder, are
@@ -61,9 +62,9 @@ activities:
 * Supporting the Code of Conduct within their subproject and referring violations
   to the Code of Conduct Committee.
 
-Additionally, each subproject's Maintainer Committee will select, by majority vote, 
-one representative to the Steering Committee.  This representative 
-need not be a member of the subproject's Maintainer Committee, and will be 
+Additionally, each subproject's Maintainer Committee will select, by majority vote,
+one representative to the Steering Committee.  This representative
+need not be a member of the subproject's Maintainer Committee, and will be
 replaced or renewed by the committee annually.
 
 Should a member of the Maintainer Committee cease being active in the subproject,
@@ -104,14 +105,14 @@ that is open to all contributors.  The Committee may hold additional, closed mee
 in order to discuss non-public issues such as security exploits, CoC enforcement,
 and legal questions.
 
-Steering Committee members are expected to advocate for all of [TODO:PROJECTNAME], 
-not just certain subprojects or corporate sponsors, comply with and support the 
-Code of Conduct, and be professional and compassionate in all of their dealings 
+Steering Committee members are expected to advocate for all of [TODO:PROJECTNAME],
+not just certain subprojects or corporate sponsors, comply with and support the
+Code of Conduct, and be professional and compassionate in all of their dealings
 with project participants.
 
 ### Steering Committee Elections
 
-The Community Representative(s) will be elected by the collective Organization 
+The Community Representative(s) will be elected by the collective Organization
 Members of all subprojects, as defined in the Contributor Ladder.  They
 will be elected annually.
 
@@ -137,11 +138,11 @@ community meeting.
 
 In order to review and enforce the Code of Conduct, the Steering Committee selects
 [TODO:Number, suggest "3 to 5"] people to be on the Code of Conduct Committee.  
-These individuals will be chosen based on their community management and code of 
-conduct experience, with diverse representation across the committee, including 
-employer, gender, race, background, and region of the world.  To avoid fatigue, 
-the Steering Committee will replace at least [TODO:Number] member of the CoC 
-Committee each year.  Members of the committee do not need to be members of 
+These individuals will be chosen based on their community management and code of
+conduct experience, with diverse representation across the committee, including
+employer, gender, race, background, and region of the world.  To avoid fatigue,
+the Steering Committee will replace at least [TODO:Number] member of the CoC
+Committee each year.  Members of the committee do not need to be members of
 [TODO:PROJECTNAME] if they have sufficient other expertise.
 
 The CoC Committee will receive reports of conduct violations confidentially,
@@ -186,19 +187,19 @@ per year to determine if they have matured to full subproject status.
 [Instructions](https://contribute.cncf.io/maintainers/github/templates/required/governance-subprojects/#adding-and-removing-subprojects)
 
 In some cases, projects will become inactive or unmaintainable, or wish to separate
-from [TODO:PROJECTNAME]. Any Steering Committee member may propose removal of a 
+from [TODO:PROJECTNAME]. Any Steering Committee member may propose removal of a
 project on these grounds, and Steering can confirm this with a majority vote.
 
-Subprojects which still have contributors will then be moved to a repository in 
+Subprojects which still have contributors will then be moved to a repository in
 their own namespace. Projects which have ceased all activity are moved to a
 [TODO:Name of archive namespace] namespace.
 
 ## Amendments
 
-This governance document, and other governance documents of [TODO:PROJECTNAME], 
-can be amended with a 2/3 majority vote of the Steering Committee.  Unless time is of 
-the essence, the amendment should be circulated in the contributor community for 
+This governance document, and other governance documents of [TODO:PROJECTNAME],
+can be amended with a 2/3 majority vote of the Steering Committee.  Unless time is of
+the essence, the amendment should be circulated in the contributor community for
 comment for at least one week before voting.
 
-Should an amendment be required in order to elect a steering committee, it may 
+Should an amendment be required in order to elect a steering committee, it may
 be amended via a majority vote all of the collective subproject maintainers.

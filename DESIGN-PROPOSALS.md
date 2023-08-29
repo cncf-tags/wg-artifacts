@@ -1,10 +1,10 @@
 # Design Proposal Template
 
-**Authors**: alice alice@example.com, bob jones bob@example.com
+**Authors**: alice <alice@example.com>, bob jones <bob@example.com>
 
 **Begin Design Discussion**: YYYY-MM-DD
 
-**(optional) Status: **implementable, accepted, deferred, rejected, withdrawn, or replaced
+**(optional) Status:** implementable, accepted, deferred, rejected, withdrawn, or replaced
 
 **Checklist**:
 
@@ -17,8 +17,6 @@ What goes in this checklist is highly dependent on how your project manages thei
 - [ ] Docs
 - [ ] Tests
 
-
-
 ## Summary/Abstract
 
 Provide a high-level summary of the proposed change. Keep it short.
@@ -29,11 +27,11 @@ This design process establishes a series of standard practices for planning and 
 
 ### Motivation and problem space
 
-Describe the need, problem, and motivation for the feature or change and any context required to understand the motivation. 
+Describe the need, problem, and motivation for the feature or change and any context required to understand the motivation.
 
 ### Impact and desired outcome
 
-Describe any potential impact this feature or change would have. Readers should be able to understand why the feature or change is important. Briefly describe the desired outcome if the change or feature were implemented as designed. 
+Describe any potential impact this feature or change would have. Readers should be able to understand why the feature or change is important. Briefly describe the desired outcome if the change or feature were implemented as designed.
 
 ### Prior discussion and links
 
@@ -62,13 +60,14 @@ This is where we get down to the specifics of what the proposal actually is. It 
 ## Design Details
 
 This section should contain enough information to allow the following to occur:
+
 * potential contributors understand how the feature or change should be implemented
 * users or operators understand how the feature of change is expected to function and interact with other components of the project
 * users or operators can take action to pre-plan any needed changes within their architecture that impacted by the upcoming feature or change if it's approved for implementation
 * decisions or opinions on a specific approach are fully discussed and explained
 * users, operators, and contributors can gain a comprehensive understanding of compatibility of the feature or change with past releases of the project.
 
-This may include API specs (though not always required), code snippets, data flow diagrams, sequence diagrams, etc. 
+This may include API specs (though not always required), code snippets, data flow diagrams, sequence diagrams, etc.
 
 If there's any ambiguity about HOW your proposal will be implemented, this is the place to discuss them. This can also be combined with the proposal section above. It should also address how the solution is backward compatible and how to deal with these incompatibilities, possibly with defaulting or migrations. It may be useful to refer back to the goals and non-goals to assist in articulating the "why" behind your approach.
 
@@ -79,23 +78,27 @@ List crucial impacts and key questions, some of which may still be open. They li
 This will also help people understand the caveats to the proposal, other important details that didn't come across above, and alternatives that could be considered. It can also be a good place to talk about core concepts and how they relate. It can be helpful to explicitly list the pros and cons of each decision. Later, this information can be reused to update project documentation, guides, and Frequently Asked Questions (FAQs).
 
 ### Pros
+
 Pros are defined as the benefits and positive aspects of the design as described. It should further reinforce how and why the design meets its goals and intended outcomes. This is a good place to check for any assumptions that have been made in the design.
+
 ### Cons
+
 Cons are defined as the negative aspects or disadvantages of the design as described. This section has the potential to capture outstanding challenge areas or future improvements needed for the project and could be referenced in future PRs and issues. This is also a good place to check for any assumptions that have been made in the design.
+
 ## Risks and Mitigations
 
-Describe the risks of this proposal and how they can be mitigated. This should be broadly scoped and describe how it will impact the larger ecosystem and potentially adopters of the project; such as if adopters need to immediately update, or support a new port or protocol. It should include drawbacks to the proposed solution. 
+Describe the risks of this proposal and how they can be mitigated. This should be broadly scoped and describe how it will impact the larger ecosystem and potentially adopters of the project; such as if adopters need to immediately update, or support a new port or protocol. It should include drawbacks to the proposed solution.
 
 ### Security Considerations
 
 When attempting to identify security implications of the changes, consider the following questions:
+
 * Does the change alter the permissions or access of users, services, components - this could be an improvement or downgrade or even just a different way of doing it?
 * Does the change alter the flow of information, events, and logs stored, processed, or transmitted?
 * Does the change increase the 'surface area' exposed - meaning, if an operator of the project or user were to go rogue or be uninformed in its operation, do they have more areas that could be manipulated unfavorably?
 * What existing security features, controls, or boundaries would be affected by this change?
 
 This section can also be combined into the one above.
-
 
 ## (Optional) Future Milestones
 

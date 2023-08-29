@@ -41,7 +41,7 @@ We welcome many different types of contributions including:
 
 Not everything happens through a GitHub pull request. Please come to our
 [meetings](TODO) or [contact us](TODO) and let's discuss how we can work
-together. 
+together.
 
 ### Come to Meetings
 
@@ -104,6 +104,7 @@ The best way to reach us with a question when contributing is to ask on:
 ⚠️ **Keep either the DCO or CLA section depending on which you use**
 
 ### DCO
+
 Licensing is important to open source projects. It provides some assurances that
 the software will continue to be available based under the terms that the
 author(s) desired. We require that contributors sign off on commits submitted to
@@ -123,12 +124,13 @@ Git has a `-s` command line option to do this automatically:
     git commit -s -m 'This is my commit message'
 
 If you forgot to do this and have not yet pushed your changes to the remote
-repository, you can amend your commit with the sign-off by running 
+repository, you can amend your commit with the sign-off by running
 
     git commit --amend -s 
 
 ### CLA
-We require that contributors have signed our Contributor License Agreement (CLA). 
+
+We require that contributors have signed our Contributor License Agreement (CLA).
 
 ⚠️ **Explain how to sign the CLA**
 

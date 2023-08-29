@@ -9,9 +9,11 @@ before it is ready to use. Read the markdown comments, `<!-- COMMENT -->`, for
 additional guidance. The raw markdown uses `TODO` to identify areas that
 require customization.  Replace [TODO: PROJECTNAME] with the name of your project.
 
+<!-- markdownlint-disable-file MD025 -->
+
 <!-- template begins here-->
 
-# Welcome to the [TODO:Projectname] Project!
+# Welcome to the [TODO:Projectname] Project
 
 <!-- Mission Statement -->
 <!-- More information about crafting your mission statement with examples -->
@@ -34,7 +36,7 @@ include:
 * quick installation/build instructions
 * a few simple examples of use
 * basic prerequisites
---> 
+-->
 
 ## Contributing
 <!-- Template: https://github.com/cncf/project-template/blob/main/CONTRIBUTING.md -->
@@ -57,7 +59,6 @@ project will implement or has implemented:
 * [TODO: High-level Item 2]
 * [TODO: High-level Item 3]
 
-
 ### Out of Scope
 
 [TODO: PROJECTNAME] will be used in a cloud native environment with other
@@ -65,7 +66,6 @@ tools. The following specific functionality will therefore not be incorporated:
 
 * [TODO: Excluded function 1]
 * [TODO: Excluded function 2]
-
 
 [TODO: PROJECTNAME] implements [TODO: List of major features, existing or
 planned], through [TODO: Implementation
@@ -84,7 +84,7 @@ prospective contributors know when and where to engage with you. -->
 * User Mailing List:
 * Developer Mailing List:
 * Slack Channel:
-* Public Meeting Schedule and Links: 
+* Public Meeting Schedule and Links:
 * Social Media:
 * Other Channel(s), If Any:
 

@@ -22,7 +22,6 @@ The reviewer role is distinct from the maintainer role. Reviewers can approve a 
 
 [Instructions](https://contribute.cncf.io/maintainers/github/templates/recommended/reviewing/#values)
 
-
 All reviewers must abide by the [Code of Conduct](CODE_OF_CONDUCT.md) and are also protected by it. A reviewer should not tolerate poor behavior and is encouraged to report any behavior that violates the Code of Conduct. All of our values listed above are distilled from our Code of Conduct.
 
 Below are concrete examples of how it applies to code review specifically:
@@ -53,7 +52,6 @@ Be trustworthy. During a review, your actions both build and help maintain the t
 
 ⚠️ **Define your project's review process**
 
-
 ## Checklist
 
 [Instructions](https://contribute.cncf.io/maintainers/github/templates/recommended/reviewing/#checklist)
@@ -65,7 +63,6 @@ Below are a set of common questions that apply to all pull requests:
 - [ ] Does the affected code have corresponding tests?
 - [ ] Are the changes documented, not just with inline documentation, but also with conceptual documentation such as an overview of a new feature, or task-based documentation like a tutorial? Consider if this change should be announced on your project blog.
 - [ ] Does this introduce breaking changes that would require an announcement or bumping the major version?
-
 
 ## Reading List
 
