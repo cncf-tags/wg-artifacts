@@ -61,11 +61,11 @@ This is where we get down to the specifics of what the proposal actually is. It 
 
 This section should contain enough information to allow the following to occur:
 
-* potential contributors understand how the feature or change should be implemented
-* users or operators understand how the feature of change is expected to function and interact with other components of the project
-* users or operators can take action to pre-plan any needed changes within their architecture that impacted by the upcoming feature or change if it's approved for implementation
-* decisions or opinions on a specific approach are fully discussed and explained
-* users, operators, and contributors can gain a comprehensive understanding of compatibility of the feature or change with past releases of the project.
+- potential contributors understand how the feature or change should be implemented
+- users or operators understand how the feature of change is expected to function and interact with other components of the project
+- users or operators can take action to pre-plan any needed changes within their architecture that impacted by the upcoming feature or change if it's approved for implementation
+- decisions or opinions on a specific approach are fully discussed and explained
+- users, operators, and contributors can gain a comprehensive understanding of compatibility of the feature or change with past releases of the project.
 
 This may include API specs (though not always required), code snippets, data flow diagrams, sequence diagrams, etc.
 
@@ -93,10 +93,10 @@ Describe the risks of this proposal and how they can be mitigated. This should b
 
 When attempting to identify security implications of the changes, consider the following questions:
 
-* Does the change alter the permissions or access of users, services, components - this could be an improvement or downgrade or even just a different way of doing it?
-* Does the change alter the flow of information, events, and logs stored, processed, or transmitted?
-* Does the change increase the 'surface area' exposed - meaning, if an operator of the project or user were to go rogue or be uninformed in its operation, do they have more areas that could be manipulated unfavorably?
-* What existing security features, controls, or boundaries would be affected by this change?
+- Does the change alter the permissions or access of users, services, components - this could be an improvement or downgrade or even just a different way of doing it?
+- Does the change alter the flow of information, events, and logs stored, processed, or transmitted?
+- Does the change increase the 'surface area' exposed - meaning, if an operator of the project or user were to go rogue or be uninformed in its operation, do they have more areas that could be manipulated unfavorably?
+- What existing security features, controls, or boundaries would be affected by this change?
 
 This section can also be combined into the one above.
 

@@ -2,23 +2,23 @@
 
 [Instructions](https://contribute.cncf.io/maintainers/github/templates/required/contributing/#introduction)
 
-* [New Contributor Guide](#contributing-guide)
-  * [Ways to Contribute](#ways-to-contribute)
-  * [Find an Issue](#find-an-issue)
-  * [Ask for Help](#ask-for-help)
-  * [Pull Request Lifecycle](#pull-request-lifecycle)
-  * [Development Environment Setup](#development-environment-setup)
-  * [Sign Your Commits](#sign-your-commits)
-  * [Pull Request Checklist](#pull-request-checklist)
+- [New Contributor Guide](#contributing-guide)
+  - [Ways to Contribute](#ways-to-contribute)
+  - [Find an Issue](#find-an-issue)
+  - [Ask for Help](#ask-for-help)
+  - [Pull Request Lifecycle](#pull-request-lifecycle)
+  - [Development Environment Setup](#development-environment-setup)
+  - [Sign Your Commits](#sign-your-commits)
+  - [Pull Request Checklist](#pull-request-checklist)
 
 Welcome! We are glad that you want to contribute to our project! 💖
 
 As you get started, you are in the best position to give us feedback on areas of
 our project that we need help with including:
 
-* Problems found during setting up a new developer environment
-* Gaps in our Quickstart Guide or documentation
-* Bugs in our automation scripts
+- Problems found during setting up a new developer environment
+- Gaps in our Quickstart Guide or documentation
+- Bugs in our automation scripts
 
 If anything doesn't make sense, or doesn't work when you run it, please open a
 bug report and let us know!
@@ -29,15 +29,15 @@ bug report and let us know!
 
 We welcome many different types of contributions including:
 
-* New features
-* Builds, CI/CD
-* Bug fixes
-* Documentation
-* Issue Triage
-* Answering questions on Slack/Mailing List
-* Web design
-* Communications / Social Media / Blog Posts
-* Release management
+- New features
+- Builds, CI/CD
+- Bug fixes
+- Documentation
+- Issue Triage
+- Answering questions on Slack/Mailing List
+- Web design
+- Communications / Social Media / Blog Posts
+- Release management
 
 Not everything happens through a GitHub pull request. Please come to our
 [meetings](TODO) or [contact us](TODO) and let's discuss how we can work
@@ -81,9 +81,9 @@ The best way to reach us with a question when contributing is to ask on:
 
 ⚠️ **Pick the way(s) that you prefer people ask for help**
 
-* The original github issue
-* The developer mailing list
-* Our Slack channel
+- The original github issue
+- The developer mailing list
+- Our Slack channel
 
 ## Pull Request Lifecycle
 

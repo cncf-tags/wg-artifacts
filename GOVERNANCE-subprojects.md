@@ -23,21 +23,21 @@ of [TODO:Goals of umbrella project].  Our governance reflects this federated str
 
 The [TODO: PROJECTNAME] and its leadership embrace the following values:
 
-* Openness: Communication and decision-making happens in the open and is discoverable for future
+- Openness: Communication and decision-making happens in the open and is discoverable for future
   reference. As much as possible, all discussions and work take place in public
   forums and open repositories.
 
-* Fairness: All stakeholders have the opportunity to provide feedback and submit
+- Fairness: All stakeholders have the opportunity to provide feedback and submit
   contributions, which will be considered on their merits.
 
-* Community over Product or Company: Sustaining and growing our community takes
+- Community over Product or Company: Sustaining and growing our community takes
   priority over shipping code or sponsors' organizational goals.  Each
   contributor participates in the project as an individual.
 
-* Inclusivity: We innovate through different perspectives and skill sets, which
+- Inclusivity: We innovate through different perspectives and skill sets, which
   can only be accomplished in a welcoming and respectful environment.
 
-* Participation: Responsibilities within the project are earned through
+- Participation: Responsibilities within the project are earned through
   participation, and there is a clear path up the contributor ladder into leadership
   positions.
 
@@ -47,19 +47,19 @@ The [TODO: PROJECTNAME] and its leadership embrace the following values:
 
 [TODO:PROJECTNAME]'s Subprojects are:
 
-* [TODO:LIST OF SUBPROJECTS]
+- [TODO:LIST OF SUBPROJECTS]
 
 All active Maintainers of each subproject, as defined in the Contributor Ladder, are
 members of that subproject's Maintainer Committee, which governs that project.  The
 subproject's Maintainer Committee is responsible for the following project governance
 activities:
 
-* Ensuring that the subproject creates and publishes regular releases;
-* Holding regular, subproject-wide discussions on issues and planning;
-* Monthly review of project contributors for advancement on the Contributor Ladder;
-* Making final decisions on subproject changes that involve controversial trade-offs;
-* Responding to security compromise reports;
-* Supporting the Code of Conduct within their subproject and referring violations
+- Ensuring that the subproject creates and publishes regular releases;
+- Holding regular, subproject-wide discussions on issues and planning;
+- Monthly review of project contributors for advancement on the Contributor Ladder;
+- Making final decisions on subproject changes that involve controversial trade-offs;
+- Responding to security compromise reports;
+- Supporting the Code of Conduct within their subproject and referring violations
   to the Code of Conduct Committee.
 
 Additionally, each subproject's Maintainer Committee will select, by majority vote,
@@ -79,25 +79,25 @@ majority vote of the Steering Committee.
 The overall [TODO:PROJECTNAME] project is governed by a Steering
 Committee, which is selected as follows:
 
-* One Maintainer representative from each member subproject
-* [TODO:Number] general "Community Representatives"
+- One Maintainer representative from each member subproject
+- [TODO:Number] general "Community Representatives"
 
 ### Steering Committee Duties
 
 The Steering Committee is responsible for the following tasks, any of which may
 be delegated to a person or group selected by the committee:
 
-* Reviewing and deciding on new projects to add to [TODO:PROJECTNAME]
-* Communicating with the CNCF on behalf of the project
-* Arbitrating inter-project disagreements
-* Selecting the Code of Conduct Committee and ratifying CoC judgements
-* Removing projects which have become inactive
-* Acting on escalated security or code quality issues
-* Resolving issues that individual projects are unable to resolve
-* Administering project infrastructure, intellectual property, and resources
-* Determining overall direction for advocacy and marketing
-* Issuing statements on behalf of [TODO:PROJECTNAME] and its subprojects
-* Reviewing and approving Contributor Ladder advancement for participants whose
+- Reviewing and deciding on new projects to add to [TODO:PROJECTNAME]
+- Communicating with the CNCF on behalf of the project
+- Arbitrating inter-project disagreements
+- Selecting the Code of Conduct Committee and ratifying CoC judgements
+- Removing projects which have become inactive
+- Acting on escalated security or code quality issues
+- Resolving issues that individual projects are unable to resolve
+- Administering project infrastructure, intellectual property, and resources
+- Determining overall direction for advocacy and marketing
+- Issuing statements on behalf of [TODO:PROJECTNAME] and its subprojects
+- Reviewing and approving Contributor Ladder advancement for participants whose
   work falls outside of defined subprojects
 
 In performance of these duties, the Steering Committee will hold a monthly meeting
@@ -163,10 +163,10 @@ During the monthly Steering meeting, any project member may recommend projects
 to become a subproject of [TODO:PROJECTNAME].  These projects should have the following
 characteristics:
 
-* Have a mission of [TODO:Goals of umbrella project];
-* Are appropriately licensed and governed or willing to become so;
-* Are under active development;
-* Consist of high quality code and designs.
+- Have a mission of [TODO:Goals of umbrella project];
+- Are appropriately licensed and governed or willing to become so;
+- Are under active development;
+- Consist of high quality code and designs.
 
 Before submitting an application to the Steering Committee, the applying project
 must hold an internal consensus vote of all major contributors to join

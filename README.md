@@ -26,9 +26,9 @@ when you view the markdown file in GitHub unless you view the raw text.
 
 ## Required Templates
 
-* [LICENSE](LICENSE)
-* [CONTRIBUTING.md](CONTRIBUTING.md)
-* [README-template.md](README-template.md)
+- [LICENSE](LICENSE)
+- [CONTRIBUTING.md](CONTRIBUTING.md)
+- [README-template.md](README-template.md)
 
 [template-repo]: https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template
 [contrib-strat]: https://github.com/cncf/sig-contributor-strategy/blob/master/README.md
