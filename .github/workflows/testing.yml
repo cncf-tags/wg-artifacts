@@ -1,6 +1,6 @@
 name: Testing Workflow
 
-on: [push]
+on: [push, pull_request]
 
 permissions:
   checks: write
