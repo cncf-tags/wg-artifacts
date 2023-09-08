@@ -1,3 +1,7 @@
+# This document serves two purposes to allow us to easily keep them in sync.
+# 1) This document is the configuration for the MarkdownLint action.
+# 2) This document is also serves as the documentation style guidelines.
+
 # Default state for all rules
 default: true
 
@@ -19,3 +23,5 @@ MD049:
 # bold with asterisk (`**bold**`)
 MD050:
   style: asterisk
+
+# Each sentence should be on its own line.  This enables easier commenting on individual sentences.  This is not enforced by MarkdownLint.

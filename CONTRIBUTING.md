@@ -97,6 +97,10 @@ The best way to reach us with a question when contributing is to ask on:
 
 ⚠️ **Explain how to set up a development environment**
 
+If using VSCode you will want to install the [MarkdownLint extension](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint).
+
+The style guidelines are documented [here](./.markdownlint.yaml)
+
 ## Sign Your Commits
 
 [Instructions](https://contribute.cncf.io/maintainers/github/templates/required/contributing/#sign-your-commits)
