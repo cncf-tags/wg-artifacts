@@ -1,37 +1,131 @@
-# CNCF Project Template Repository
+<!-- template begins here-->
 
-This is a [template repository][template-repo] for CNCF projects created by [CNCF SIG Contributor
-Strategy][contrib-strat]. You can use it to either start a new repository that
-has all the required files for a CNCF project or just grab the particular files
-that you need.
+# Welcome to the CNCF Artifacts Working Group
 
-## Steps
+<!-- Mission Statement -->
 
-1. Click **Use this template** and create a copy of this repository.
+In the distributed world of cloud-native computing different artifacts and
+packages are used to transport configuration and code for the many services and
+capabilities that comprise and support workloads and applications. As an
+example, today ArtifactHub advertises that it can crawl about 20 such artifact
+types [1]. These "cloud-native" bundles add to the previous proliferation of
+package and artifact types for software dependencies such as Maven and npm and
+for system packages like deb and rpm. This abundance of package types and
+formats adds complexity and risk for cloud application developers and
+architects trying to provision and run cloud-native workloads. Different tools
+and controllers must be carefully learned and installed to bundle, unbundle,
+verify and deploy each artifact type. This complexity slows product development
+by users, impedes innovation and collaboration amongst projects, and increases
+risks of insecure configuration. To reduce this complexity and facilitate
+collaboration and innovation, WG Artifacts will gather stakeholders from many
+CNCF and open source projects offering packaging, distribution and deployment
+mechanisms for bundles of configuration and code.
 
-    ![Green button that says "Use this template"](https://user-images.githubusercontent.com/1368985/95903529-e9c32f00-0d5b-11eb-8723-4369f7c9e044.png)
-1. Remove **.github/settings.yml**. This is not a template and contains
-   configuration specific our repository. You should not keep this file.
-1. Customize every [required template](#required-templates) and address each TODO item.
+<!-- More information about crafting your mission statement with examples -->
 
-### Customize Templates
+The [charter](charter.md) describes the goals and activites of this group.
 
-Each file is a template with instructions to customize the contents for your project.
-Most files use comments with TODO to call out where you need to make changes. We recommend
-viewing the files in raw or text form so that you can see the comments.
+Old working document of the [charter](https://docs.google.com/document/d/1w_lo2RZDKeEzQg4DMV-9Tq4ir_znONj_ypJ27CUfMgY/).
 
-For example in markdown files, we use `<!-- TODO: ... -->` to provide additional
-guidance or indicate where action is required but you won't see those comments
-when you view the markdown file in GitHub unless you view the raw text.
+<!-- https://contribute.cncf.io/maintainers/governance/charter/ -->
 
-## Required Templates
+The CNCF Artifacts Working Group is under the App Delivery Technical Advisory Group hosted by the [Cloud Native Computing Foundation (CNCF)](https://cncf.io).
 
-- [LICENSE](LICENSE)
-- [CONTRIBUTING.md](CONTRIBUTING.md)
-- [README-template.md](README-template.md)
+`https://github.com/cncf/tag-app-delivery/tree/main/artifacts-wg`
 
-[template-repo]: https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template
-[contrib-strat]: https://github.com/cncf/sig-contributor-strategy/blob/master/README.md
+## Chairs
 
-Note: This is the README file for the templates repo. Please use [README-template.md](README-template.md)
-as a template for your project README.
+- Alex Flom (@afflom)
+- Ramkumar Chinchani (@rchincha)
+
+## Getting Started
+
+<!-- Include enough details to get started using, or at least building, the
+project here and link to other docs with more detail as needed.  Depending on
+the nature of the project and its current development status, this might
+include:
+* quick installation/build instructions
+* a few simple examples of use
+* basic prerequisites
+-->
+
+## Contributing
+<!-- Template: https://github.com/cncf/project-template/blob/main/CONTRIBUTING.md -->
+
+Our project welcomes contributions from any member of our community. To get
+started contributing, please see our [Contributor Guide](CONTRIBUTING.md).
+
+[Meeting Notes](https://docs.google.com/document/d/1E7iKPOuyA1jxPe8vDG8aPd8jtnCEbpDpCifXDvDCnA0/)
+
+## Scope
+<!-- If this section is too long, you might consider moving it to a SCOPE.md -->
+<!-- More information about creating your scope with links to examples -->
+<!-- https://contribute.cncf.io/maintainers/governance/charter/ -->
+
+### In Scope
+
+[TODO: PROJECTNAME] is intended to [TODO: Core functionality]. As such, the
+project will implement or has implemented:
+
+- [TODO: High-level Item 1]
+- [TODO: High-level Item 2]
+- [TODO: High-level Item 3]
+
+### Out of Scope
+
+[TODO: PROJECTNAME] will be used in a cloud native environment with other
+tools. The following specific functionality will therefore not be incorporated:
+
+- [TODO: Excluded function 1]
+- [TODO: Excluded function 2]
+
+[TODO: PROJECTNAME] implements [TODO: List of major features, existing or
+planned], through [TODO: Implementation
+requirements/language/architecture/etc.]. It will not cover [TODO: short list
+of excluded items]
+
+## Communications
+
+<!-- Fill in the communications channels you actually use.  These should all be public channels anyone
+can join, and there should be several ways that users and contributors can reach project maintainers. 
+If you have recurring/regular meetings, list those or a link to a publicy-readable calendar so that
+prospective contributors know when and where to engage with you. -->
+
+[TODO: Details (with links) to meetings, mailing lists, Slack, and any other communication channels]
+
+- User Mailing List:
+- Developer Mailing List:
+- Slack Channel:
+
+[Slack channel](https://cloud-native.slack.com/archives/C04UQDWS4M7)
+
+- Public Meeting Schedule and Links:
+
+This working group meets on 2nd and 4th Friday of each month @ 1700 UTC
+
+    Zoom: https://zoom.us/j/7276783015?pwd=R0RJMkRzQ1ZjcmE0WERGcTJTOEVyUT09
+    Passcode: 77777
+
+    Agendas and notes: https://docs.google.com/document/d/1E7iKPOuyA1jxPe8vDG8aPd8jtnCEbpDpCifXDvDCnA0/
+
+[CNCF Community](https://community.cncf.io/tag-app-delivery/)
+
+WG Artifacts - Project Meeting
+TAG App Delivery
+
+- Social Media:
+- Other Channel(s), If Any:
+
+## Resources
+
+[Meeting Notes](https://docs.google.com/document/d/1E7iKPOuyA1jxPe8vDG8aPd8jtnCEbpDpCifXDvDCnA0/)
+
+## License
+
+<!-- Template: https://github.com/cncf/project-template/blob/main/LICENSE -->
+This project is licensed under [TODO: Add name of license and link to your LICENSE file]
+
+## Conduct
+
+<!-- Template: https://github.com/cncf/project-template/blob/main/CODE_OF_CONDUCT.md -->
+We follow the [CNCF Code of Conduct](CODE_OF_CONDUCT.md).
