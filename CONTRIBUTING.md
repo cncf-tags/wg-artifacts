@@ -2,23 +2,23 @@
 
 [Instructions](https://contribute.cncf.io/maintainers/github/templates/required/contributing/#introduction)
 
-* [New Contributor Guide](#contributing-guide)
-  * [Ways to Contribute](#ways-to-contribute)
-  * [Find an Issue](#find-an-issue)
-  * [Ask for Help](#ask-for-help)
-  * [Pull Request Lifecycle](#pull-request-lifecycle)
-  * [Development Environment Setup](#development-environment-setup)
-  * [Sign Your Commits](#sign-your-commits)
-  * [Pull Request Checklist](#pull-request-checklist)
+- [New Contributor Guide](#contributing-guide)
+  - [Ways to Contribute](#ways-to-contribute)
+  - [Find an Issue](#find-an-issue)
+  - [Ask for Help](#ask-for-help)
+  - [Pull Request Lifecycle](#pull-request-lifecycle)
+  - [Development Environment Setup](#development-environment-setup)
+  - [Sign Your Commits](#sign-your-commits)
+  - [Pull Request Checklist](#pull-request-checklist)
 
 Welcome! We are glad that you want to contribute to our project! 💖
 
 As you get started, you are in the best position to give us feedback on areas of
 our project that we need help with including:
 
-* Problems found during setting up a new developer environment
-* Gaps in our Quickstart Guide or documentation
-* Bugs in our automation scripts
+- Problems found during setting up a new developer environment
+- Gaps in our Quickstart Guide or documentation
+- Bugs in our automation scripts
 
 If anything doesn't make sense, or doesn't work when you run it, please open a
 bug report and let us know!
@@ -29,19 +29,19 @@ bug report and let us know!
 
 We welcome many different types of contributions including:
 
-* New features
-* Builds, CI/CD
-* Bug fixes
-* Documentation
-* Issue Triage
-* Answering questions on Slack/Mailing List
-* Web design
-* Communications / Social Media / Blog Posts
-* Release management
+- New features
+- Builds, CI/CD
+- Bug fixes
+- Documentation
+- Issue Triage
+- Answering questions on Slack/Mailing List
+- Web design
+- Communications / Social Media / Blog Posts
+- Release management
 
 Not everything happens through a GitHub pull request. Please come to our
 [meetings](TODO) or [contact us](TODO) and let's discuss how we can work
-together. 
+together.
 
 ### Come to Meetings
 
@@ -81,9 +81,9 @@ The best way to reach us with a question when contributing is to ask on:
 
 ⚠️ **Pick the way(s) that you prefer people ask for help**
 
-* The original github issue
-* The developer mailing list
-* Our Slack channel
+- The original github issue
+- The developer mailing list
+- Our Slack channel
 
 ## Pull Request Lifecycle
 
@@ -97,6 +97,10 @@ The best way to reach us with a question when contributing is to ask on:
 
 ⚠️ **Explain how to set up a development environment**
 
+If using VSCode you will want to install the [MarkdownLint extension](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint).
+
+The style guidelines are documented [here](./.markdownlint.yaml)
+
 ## Sign Your Commits
 
 [Instructions](https://contribute.cncf.io/maintainers/github/templates/required/contributing/#sign-your-commits)
@@ -104,6 +108,7 @@ The best way to reach us with a question when contributing is to ask on:
 ⚠️ **Keep either the DCO or CLA section depending on which you use**
 
 ### DCO
+
 Licensing is important to open source projects. It provides some assurances that
 the software will continue to be available based under the terms that the
 author(s) desired. We require that contributors sign off on commits submitted to
@@ -123,12 +128,13 @@ Git has a `-s` command line option to do this automatically:
     git commit -s -m 'This is my commit message'
 
 If you forgot to do this and have not yet pushed your changes to the remote
-repository, you can amend your commit with the sign-off by running 
+repository, you can amend your commit with the sign-off by running
 
     git commit --amend -s 
 
 ### CLA
-We require that contributors have signed our Contributor License Agreement (CLA). 
+
+We require that contributors have signed our Contributor License Agreement (CLA).
 
 ⚠️ **Explain how to sign the CLA**
 

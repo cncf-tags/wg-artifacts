@@ -23,21 +23,21 @@ of [TODO:Goals of umbrella project].  Our governance reflects this federated str
 
 The [TODO: PROJECTNAME] and its leadership embrace the following values:
 
-* Openness: Communication and decision-making happens in the open and is discoverable for future
+- Openness: Communication and decision-making happens in the open and is discoverable for future
   reference. As much as possible, all discussions and work take place in public
   forums and open repositories.
 
-* Fairness: All stakeholders have the opportunity to provide feedback and submit
+- Fairness: All stakeholders have the opportunity to provide feedback and submit
   contributions, which will be considered on their merits.
 
-* Community over Product or Company: Sustaining and growing our community takes
+- Community over Product or Company: Sustaining and growing our community takes
   priority over shipping code or sponsors' organizational goals.  Each
   contributor participates in the project as an individual.
 
-* Inclusivity: We innovate through different perspectives and skill sets, which
+- Inclusivity: We innovate through different perspectives and skill sets, which
   can only be accomplished in a welcoming and respectful environment.
 
-* Participation: Responsibilities within the project are earned through
+- Participation: Responsibilities within the project are earned through
   participation, and there is a clear path up the contributor ladder into leadership
   positions.
 
@@ -46,24 +46,25 @@ The [TODO: PROJECTNAME] and its leadership embrace the following values:
 [Instructions](https://contribute.cncf.io/maintainers/github/templates/required/governance-subprojects/#subprojects)
 
 [TODO:PROJECTNAME]'s Subprojects are:
-* [TODO:LIST OF SUBPROJECTS]
+
+- [TODO:LIST OF SUBPROJECTS]
 
 All active Maintainers of each subproject, as defined in the Contributor Ladder, are
 members of that subproject's Maintainer Committee, which governs that project.  The
 subproject's Maintainer Committee is responsible for the following project governance
 activities:
 
-* Ensuring that the subproject creates and publishes regular releases;
-* Holding regular, subproject-wide discussions on issues and planning;
-* Monthly review of project contributors for advancement on the Contributor Ladder;
-* Making final decisions on subproject changes that involve controversial trade-offs;
-* Responding to security compromise reports;
-* Supporting the Code of Conduct within their subproject and referring violations
+- Ensuring that the subproject creates and publishes regular releases;
+- Holding regular, subproject-wide discussions on issues and planning;
+- Monthly review of project contributors for advancement on the Contributor Ladder;
+- Making final decisions on subproject changes that involve controversial trade-offs;
+- Responding to security compromise reports;
+- Supporting the Code of Conduct within their subproject and referring violations
   to the Code of Conduct Committee.
 
-Additionally, each subproject's Maintainer Committee will select, by majority vote, 
-one representative to the Steering Committee.  This representative 
-need not be a member of the subproject's Maintainer Committee, and will be 
+Additionally, each subproject's Maintainer Committee will select, by majority vote,
+one representative to the Steering Committee.  This representative
+need not be a member of the subproject's Maintainer Committee, and will be
 replaced or renewed by the committee annually.
 
 Should a member of the Maintainer Committee cease being active in the subproject,
@@ -78,25 +79,25 @@ majority vote of the Steering Committee.
 The overall [TODO:PROJECTNAME] project is governed by a Steering
 Committee, which is selected as follows:
 
-* One Maintainer representative from each member subproject
-* [TODO:Number] general "Community Representatives"
+- One Maintainer representative from each member subproject
+- [TODO:Number] general "Community Representatives"
 
 ### Steering Committee Duties
 
 The Steering Committee is responsible for the following tasks, any of which may
 be delegated to a person or group selected by the committee:
 
-* Reviewing and deciding on new projects to add to [TODO:PROJECTNAME]
-* Communicating with the CNCF on behalf of the project
-* Arbitrating inter-project disagreements
-* Selecting the Code of Conduct Committee and ratifying CoC judgements
-* Removing projects which have become inactive
-* Acting on escalated security or code quality issues
-* Resolving issues that individual projects are unable to resolve
-* Administering project infrastructure, intellectual property, and resources
-* Determining overall direction for advocacy and marketing
-* Issuing statements on behalf of [TODO:PROJECTNAME] and its subprojects
-* Reviewing and approving Contributor Ladder advancement for participants whose
+- Reviewing and deciding on new projects to add to [TODO:PROJECTNAME]
+- Communicating with the CNCF on behalf of the project
+- Arbitrating inter-project disagreements
+- Selecting the Code of Conduct Committee and ratifying CoC judgements
+- Removing projects which have become inactive
+- Acting on escalated security or code quality issues
+- Resolving issues that individual projects are unable to resolve
+- Administering project infrastructure, intellectual property, and resources
+- Determining overall direction for advocacy and marketing
+- Issuing statements on behalf of [TODO:PROJECTNAME] and its subprojects
+- Reviewing and approving Contributor Ladder advancement for participants whose
   work falls outside of defined subprojects
 
 In performance of these duties, the Steering Committee will hold a monthly meeting
@@ -104,14 +105,14 @@ that is open to all contributors.  The Committee may hold additional, closed mee
 in order to discuss non-public issues such as security exploits, CoC enforcement,
 and legal questions.
 
-Steering Committee members are expected to advocate for all of [TODO:PROJECTNAME], 
-not just certain subprojects or corporate sponsors, comply with and support the 
-Code of Conduct, and be professional and compassionate in all of their dealings 
+Steering Committee members are expected to advocate for all of [TODO:PROJECTNAME],
+not just certain subprojects or corporate sponsors, comply with and support the
+Code of Conduct, and be professional and compassionate in all of their dealings
 with project participants.
 
 ### Steering Committee Elections
 
-The Community Representative(s) will be elected by the collective Organization 
+The Community Representative(s) will be elected by the collective Organization
 Members of all subprojects, as defined in the Contributor Ladder.  They
 will be elected annually.
 
@@ -137,11 +138,11 @@ community meeting.
 
 In order to review and enforce the Code of Conduct, the Steering Committee selects
 [TODO:Number, suggest "3 to 5"] people to be on the Code of Conduct Committee.  
-These individuals will be chosen based on their community management and code of 
-conduct experience, with diverse representation across the committee, including 
-employer, gender, race, background, and region of the world.  To avoid fatigue, 
-the Steering Committee will replace at least [TODO:Number] member of the CoC 
-Committee each year.  Members of the committee do not need to be members of 
+These individuals will be chosen based on their community management and code of
+conduct experience, with diverse representation across the committee, including
+employer, gender, race, background, and region of the world.  To avoid fatigue,
+the Steering Committee will replace at least [TODO:Number] member of the CoC
+Committee each year.  Members of the committee do not need to be members of
 [TODO:PROJECTNAME] if they have sufficient other expertise.
 
 The CoC Committee will receive reports of conduct violations confidentially,
@@ -162,10 +163,10 @@ During the monthly Steering meeting, any project member may recommend projects
 to become a subproject of [TODO:PROJECTNAME].  These projects should have the following
 characteristics:
 
-* Have a mission of [TODO:Goals of umbrella project];
-* Are appropriately licensed and governed or willing to become so;
-* Are under active development;
-* Consist of high quality code and designs.
+- Have a mission of [TODO:Goals of umbrella project];
+- Are appropriately licensed and governed or willing to become so;
+- Are under active development;
+- Consist of high quality code and designs.
 
 Before submitting an application to the Steering Committee, the applying project
 must hold an internal consensus vote of all major contributors to join
@@ -186,19 +187,19 @@ per year to determine if they have matured to full subproject status.
 [Instructions](https://contribute.cncf.io/maintainers/github/templates/required/governance-subprojects/#adding-and-removing-subprojects)
 
 In some cases, projects will become inactive or unmaintainable, or wish to separate
-from [TODO:PROJECTNAME]. Any Steering Committee member may propose removal of a 
+from [TODO:PROJECTNAME]. Any Steering Committee member may propose removal of a
 project on these grounds, and Steering can confirm this with a majority vote.
 
-Subprojects which still have contributors will then be moved to a repository in 
+Subprojects which still have contributors will then be moved to a repository in
 their own namespace. Projects which have ceased all activity are moved to a
 [TODO:Name of archive namespace] namespace.
 
 ## Amendments
 
-This governance document, and other governance documents of [TODO:PROJECTNAME], 
-can be amended with a 2/3 majority vote of the Steering Committee.  Unless time is of 
-the essence, the amendment should be circulated in the contributor community for 
+This governance document, and other governance documents of [TODO:PROJECTNAME],
+can be amended with a 2/3 majority vote of the Steering Committee.  Unless time is of
+the essence, the amendment should be circulated in the contributor community for
 comment for at least one week before voting.
 
-Should an amendment be required in order to elect a steering committee, it may 
+Should an amendment be required in order to elect a steering committee, it may
 be amended via a majority vote all of the collective subproject maintainers.

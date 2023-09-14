@@ -36,24 +36,23 @@ evolve as the community and project change.
 
 The [TODO: PROJECTNAME] and its leadership embrace the following values:
 
-* Openness: Communication and decision-making happens in the open and is discoverable for future
+- Openness: Communication and decision-making happens in the open and is discoverable for future
   reference. As much as possible, all discussions and work take place in public
   forums and open repositories.
 
-* Fairness: All stakeholders have the opportunity to provide feedback and submit
+- Fairness: All stakeholders have the opportunity to provide feedback and submit
   contributions, which will be considered on their merits.
 
-* Community over Product or Company: Sustaining and growing our community takes
+- Community over Product or Company: Sustaining and growing our community takes
   priority over shipping code or sponsors' organizational goals.  Each
   contributor participates in the project as an individual.
 
-* Inclusivity: We innovate through different perspectives and skill sets, which
+- Inclusivity: We innovate through different perspectives and skill sets, which
   can only be accomplished in a welcoming and respectful environment.
 
-* Participation: Responsibilities within the project are earned through
+- Participation: Responsibilities within the project are earned through
   participation, and there is a clear path up the contributor ladder into leadership
   positions.
-
 
 ## Charter
 
@@ -62,23 +61,23 @@ The following responsibilities and powers belong to the Steering Committee.
 Technical governance is expected to be performed by the Maintainers of the
 various project areas and subprojects, as defined in the appropriate OWNERS files.
 
-* Delegate ownership of, responsibility for and authority over areas of the
+- Delegate ownership of, responsibility for and authority over areas of the
   project to specific entities.
-* Define, evolve, and defend the vision, mission and the values of the project.
-* Charter and refine policy for defining new community groups, and establish
+- Define, evolve, and defend the vision, mission and the values of the project.
+- Charter and refine policy for defining new community groups, and establish
   transparency and accountability policies for such groups
-* Define and evolve project and group governance structures and policies.
-* Act as a final escalation point for disputes in any project repository or
+- Define and evolve project and group governance structures and policies.
+- Act as a final escalation point for disputes in any project repository or
   group.
-* Request funds and other support from the CNCF (e.g. marketing, press, etc.)
-* Coordinate with the CNCF regarding usage of the [TODO: PROJECTNAME] brand and deciding
+- Request funds and other support from the CNCF (e.g. marketing, press, etc.)
+- Coordinate with the CNCF regarding usage of the [TODO: PROJECTNAME] brand and deciding
   project scope, core requirements, and conformance, as well as how that brand
   can be used in relation to other efforts or vendors.
-* Decide, for the purpose of elections, who is a member of standing, and what
+- Decide, for the purpose of elections, who is a member of standing, and what
   privileges that entails.
-* Control and delegate access to and establish processes regarding all project
+- Control and delegate access to and establish processes regarding all project
   repositories, resources, and assets.
-* Appointing the members of the Code of Conduct Committee in order to ensure
+- Appointing the members of the Code of Conduct Committee in order to ensure
   responsiveness, diversity, and good judgement.
 
 ## Delegated authority
@@ -116,7 +115,6 @@ first name):
 
 | &nbsp;                                                         | Member           | Organization |
 | -------------------------------------------------------------- | ---------------- | ------------ |
-
 
 ## Decision process
 

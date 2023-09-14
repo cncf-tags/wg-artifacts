@@ -1,6 +1,6 @@
 <!-- template begins here-->
 
-# Welcome to the CNCF Artifacts Working Group!
+# Welcome to the CNCF Artifacts Working Group
 
 <!-- Mission Statement -->
 
@@ -25,17 +25,18 @@ mechanisms for bundles of configuration and code.
 
 The [charter](charter.md) describes the goals and activites of this group.
 
-https://docs.google.com/document/d/1w_lo2RZDKeEzQg4DMV-9Tq4ir_znONj_ypJ27CUfMgY/
+Old working document of the [charter](https://docs.google.com/document/d/1w_lo2RZDKeEzQg4DMV-9Tq4ir_znONj_ypJ27CUfMgY/).
 
 <!-- https://contribute.cncf.io/maintainers/governance/charter/ -->
 
 The CNCF Artifacts Working Group is under the App Delivery Technical Advisory Group hosted by the [Cloud Native Computing Foundation (CNCF)](https://cncf.io).
 
-https://github.com/cncf/tag-app-delivery/tree/main/artifacts-wg
+`https://github.com/cncf/tag-app-delivery/tree/main/artifacts-wg`
 
 ## Chairs
-  * Alex Flom (@afflom)
-  * Ramkumar Chinchani (@rchincha)
+
+- Alex Flom (@afflom)
+- Ramkumar Chinchani (@rchincha)
 
 ## Getting Started
 
@@ -46,7 +47,7 @@ include:
 * quick installation/build instructions
 * a few simple examples of use
 * basic prerequisites
---> 
+-->
 
 ## Contributing
 <!-- Template: https://github.com/cncf/project-template/blob/main/CONTRIBUTING.md -->
@@ -54,7 +55,7 @@ include:
 Our project welcomes contributions from any member of our community. To get
 started contributing, please see our [Contributor Guide](CONTRIBUTING.md).
 
-https://docs.google.com/document/d/1E7iKPOuyA1jxPe8vDG8aPd8jtnCEbpDpCifXDvDCnA0/
+[Meeting Notes](https://docs.google.com/document/d/1E7iKPOuyA1jxPe8vDG8aPd8jtnCEbpDpCifXDvDCnA0/)
 
 ## Scope
 <!-- If this section is too long, you might consider moving it to a SCOPE.md -->
@@ -66,19 +67,17 @@ https://docs.google.com/document/d/1E7iKPOuyA1jxPe8vDG8aPd8jtnCEbpDpCifXDvDCnA0/
 [TODO: PROJECTNAME] is intended to [TODO: Core functionality]. As such, the
 project will implement or has implemented:
 
-* [TODO: High-level Item 1]
-* [TODO: High-level Item 2]
-* [TODO: High-level Item 3]
-
+- [TODO: High-level Item 1]
+- [TODO: High-level Item 2]
+- [TODO: High-level Item 3]
 
 ### Out of Scope
 
 [TODO: PROJECTNAME] will be used in a cloud native environment with other
 tools. The following specific functionality will therefore not be incorporated:
 
-* [TODO: Excluded function 1]
-* [TODO: Excluded function 2]
-
+- [TODO: Excluded function 1]
+- [TODO: Excluded function 2]
 
 [TODO: PROJECTNAME] implements [TODO: List of major features, existing or
 planned], through [TODO: Implementation
@@ -94,13 +93,13 @@ prospective contributors know when and where to engage with you. -->
 
 [TODO: Details (with links) to meetings, mailing lists, Slack, and any other communication channels]
 
-* User Mailing List:
-* Developer Mailing List:
-* Slack Channel: 
+- User Mailing List:
+- Developer Mailing List:
+- Slack Channel:
 
-https://cloud-native.slack.com/archives/C04UQDWS4M7
+[Slack channel](https://cloud-native.slack.com/archives/C04UQDWS4M7)
 
-* Public Meeting Schedule and Links: 
+- Public Meeting Schedule and Links:
 
 This working group meets on 2nd and 4th Friday of each month @ 1700 UTC
 
@@ -109,17 +108,17 @@ This working group meets on 2nd and 4th Friday of each month @ 1700 UTC
 
     Agendas and notes: https://docs.google.com/document/d/1E7iKPOuyA1jxPe8vDG8aPd8jtnCEbpDpCifXDvDCnA0/
 
-https://community.cncf.io/tag-app-delivery/
+[CNCF Community](https://community.cncf.io/tag-app-delivery/)
 
 WG Artifacts - Project Meeting
 TAG App Delivery
 
-* Social Media:
-* Other Channel(s), If Any:
+- Social Media:
+- Other Channel(s), If Any:
 
 ## Resources
 
-https://docs.google.com/document/d/1E7iKPOuyA1jxPe8vDG8aPd8jtnCEbpDpCifXDvDCnA0/
+[Meeting Notes](https://docs.google.com/document/d/1E7iKPOuyA1jxPe8vDG8aPd8jtnCEbpDpCifXDvDCnA0/)
 
 ## License
 
