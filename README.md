@@ -1,5 +1,7 @@
 <!-- template begins here-->
 
+[![CI](https://github.com/cncf-tags/wg-artifacts/actions/workflows/testing.yml/badge.svg)](https://github.com/cncf-tags/wg-artifacts/actions/workflows/testing.yml)
+
 # Welcome to the CNCF Artifacts Working Group
 
 <!-- Mission Statement -->
