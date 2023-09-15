@@ -2,6 +2,8 @@
 
 # Welcome to the CNCF Artifacts Working Group
 
+[![CI](https://github.com/cncf-tags/wg-artifacts/actions/workflows/testing.yml/badge.svg)](https://github.com/cncf-tags/wg-artifacts/actions/workflows/testing.yml)
+
 <!-- Mission Statement -->
 
 In the distributed world of cloud-native computing different artifacts and
