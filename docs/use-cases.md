@@ -3,7 +3,7 @@
 A list of common use cases that are implemented across various package managers.
 
 <!---                                                         | Alpine         | Cargo          | Carvel         | Helm           | Maven          | npm            | OCI            | PyP            | rpm            | --->
-<!-- markdownlint-disable-next-line MD003 -->
+<!-- markdownlint-disable-next-line MD033 -->
 | Use Case /<BR>Package Manager                               | Alpine </BR>(APK) | Cargo | Carvel | Helm | Maven | npm | [OCI](./pkgmgr/oci.md) | [PyPi](./pkgmgr/pypi.md) | rpm |
 | - | - | - | - | - | - | - | - | - | - |
 | **[List of Packages](#list-of-packages)**                   | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: |  :red_circle:* | :white_circle: | :white_circle: |

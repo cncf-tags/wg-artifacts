@@ -32,4 +32,3 @@ The package manager has the ability to efficiently, and securely store duplicate
 - OCI Image: `layers` enables blob tracking
 - OCI Index: `manifests` enables architecture to artifact tracking
 - The Tag API enables a means for registries to implement a tag history and/or deletion of older versions
-- 
