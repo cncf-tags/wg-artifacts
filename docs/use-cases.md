@@ -17,6 +17,7 @@ A list of common use cases that are implemented across various package managers.
 ## Use Case Details
 
 <TODO:>
+
 - Capture the differences between the client and the server. For example, putting the burden on the client to do filtering doesn't scale more than dozen packages.
 
 ### List of Packages
@@ -43,6 +44,7 @@ The package manager provides a means to query for a package, specific to a OS Pl
 
 <TODO:>
 
-...for package manager lifecycle management. 
+...for package manager lifecycle management.
+
 - [ ] Can the server track the dependencies of a specific package?
 - [ ] Can the server track cross package dependencies?
