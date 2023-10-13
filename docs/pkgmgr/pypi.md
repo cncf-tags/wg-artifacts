@@ -4,7 +4,9 @@
 
 Public Python packages are primarily stored at the [Python Package Index](https://pypi.org).  This document will focus on a examples from PyPi.org but keep in mind private and other public python package repositories exist and all follow the same API.
 
-Binary packages are often in Wheel format (zip file format with a .whl extension) and source packages (.tar.gz).  
+Binary packages (called python distributions) are often in Wheel format (zip file format with a .whl extension) and source packages (.tar.gz).
+
+The tools that interact with package indices include `pip`, `poetry`, `pipenv`, etc.
 
 Python's packaging ecosystem has gone through much evolution over the years.  Backwards compatibility is a major consideration as they move forward.
 
@@ -24,19 +26,20 @@ The entire Python Package Index is 17.2 TiB in size.  There are 4,969,409 releas
 
 ## Filter a List of Packages :yellow_circle:
 
-There is catalog only contains the package names.  Therefore filtering on metadata is not possible with a more expensive query that retrieves the data for each package (487k HTTP GET requests is prohibitive).  There is no downloadable catalog that contains all the information in a concise format for Python.
+There is catalog only contains the package names.  Therefore filtering on metadata is not possible with a more expensive query that retrieves the data for each package (487k HTTP GET requests is prohibitive).  There is no downloadable catalog that contains all the information in a concise format.
 
 ## List versions :green_circle:
 
-To get details information about a Python package tools do a single HTTP GET request to <https://pypi.org/simple/PACKAGE-NAME>.  The response is a HTML document that contains lines such as
+To get details information about a Python package tools do a single HTTP GET request to <https://pypi.org/simple/PACKAGE-NAME>.  The response is a HTML document where the `<a>` tags contain the information.
 
-Here is a snippet for the popular package `numpy`, retrieved from <https://pypi.org/simple/numpy>.  The file is 1627 kB.
+Here is a snippet for the popular package `scipy`, retrieved from <https://pypi.org/simple/scipy>.  The file is 520 kB.
 
 ```html
-<a href="https://files.pythonhosted.org/packages/83/68/4416a59370addad4dcee0ba726109f7b1f39cebda825a66381f5e654d797/numpy-1.6.1.win32-py2.5.exe#sha256=9f8d76534aba9087d5db281d75f578a076290f191a27bea6899ff7d76d86263d" >numpy-1.6.1.win32-py2.5.exe</a><br />
-<a href="https://files.pythonhosted.org/packages/23/36/35495262d6faf673f2a0948cd2be2bf19f59877c45cba9d4c0b345c5288b/numpy-1.26.0-cp39-cp39-musllinux_1_1_x86_64.whl#sha256=b44e6a09afc12952a7d2a58ca0a2429ee0d49a4f89d83a0a11052da696440e49" data-requires-python="&lt;3.13,&gt;=3.9" data-dist-info-metadata="sha256=4a120e41f66312dbf31e1ee06d58f1c0fb25c020b4e6f97b260d2d0125e328a0" data-core-metadata="sha256=4a120e41f66312dbf31e1ee06d58f1c0fb25c020b4e6f97b260d2d0125e328a0">numpy-1.26.0-cp39-cp39-musllinux_1_1_x86_64.whl</a><br />
-<a href="https://files.pythonhosted.org/packages/4b/80/3ae14edb54426376bb1182a236763b39980ab609424825da55f3dbff0629/numpy-1.26.0-cp39-cp39-win32.whl#sha256=5671338034b820c8d58c81ad1dafc0ed5a00771a82fccc71d6438df00302094b" data-requires-python="&lt;3.13,&gt;=3.9" data-dist-info-metadata="sha256=c0dcd8951914d2310fa1033d67acd56270cf8932cb0f7ce8a576efce57f262e6" data-core-metadata="sha256=c0dcd8951914d2310fa1033d67acd56270cf8932cb0f7ce8a576efce57f262e6">numpy-1.26.0-cp39-cp39-win32.whl</a><br />
-<a href="https://files.pythonhosted.org/packages/55/b3/b13bce39ba82b7398c06d10446f5ffd5c07db39b09bd37370dc720c7951c/numpy-1.26.0.tar.gz#sha256=f93fc78fe8bf15afe2b8d6b6499f1c73953169fad1e9a8dd086cdff3190e7fdf" data-requires-python="&lt;3.13,&gt;=3.9" >numpy-1.26.0.tar.gz</a><br />
+<a href="https://files.pythonhosted.org/packages/82/0d/987404674724e5bbdd9341ab8bf1a7c52a4082d4ba1ab5ff81ee2ebe8456/scipy-0.8.0.tar.gz#sha256=b12937bd3a71ace8d7d6b7e19f8f220630969c2822e6248fc0bbc8f2cc18d825" >scipy-0.8.0.tar.gz</a><br />
+...
+<a href="https://files.pythonhosted.org/packages/34/60/31ab759c4305d0cd4aac316c7c580d955800980eb97c2c1e67502b2daed9/scipy-1.11.3-cp39-cp39-musllinux_1_1_x86_64.whl#sha256=15f237e890c24aef6891c7d008f9ff7e758c6ef39a2b5df264650eb7900403c0" data-requires-python="&lt;3.13,&gt;=3.9" data-dist-info-metadata="sha256=283424f25638d7175400f2c268d9c5c2b72adf5a1cf8da1bde2c96194d3e43ff" data-core-metadata="sha256=283424f25638d7175400f2c268d9c5c2b72adf5a1cf8da1bde2c96194d3e43ff">scipy-1.11.3-cp39-cp39-musllinux_1_1_x86_64.whl</a><br />
+<a href="https://files.pythonhosted.org/packages/23/86/57a03f715b1398c6c5efa5e62e34d683b6c4b609b0e51df58d48aedde84a/scipy-1.11.3-cp39-cp39-win_amd64.whl#sha256=4b4bb134c7aa457e26cc6ea482b016fef45db71417d55cc6d8f43d799cdf9ef2" data-requires-python="&lt;3.13,&gt;=3.9" data-dist-info-metadata="sha256=ede2b55e44e34b899856916f89459da4450e92ec46632ea777a59908e31d36da" data-core-metadata="sha256=ede2b55e44e34b899856916f89459da4450e92ec46632ea777a59908e31d36da">scipy-1.11.3-cp39-cp39-win_amd64.whl</a><br />
+<a href="https://files.pythonhosted.org/packages/39/7b/9f265b7f074195392e893a5cdc66116c2f7a31fd5f3d9cceff661ec6df82/scipy-1.11.3.tar.gz#sha256=bba4d955f54edd61899776bad459bf7326e14b9fa1c552181f0479cc60a568cd" data-requires-python="&lt;3.13,&gt;=3.9" >scipy-1.11.3.tar.gz</a><br />
 ```
 
 The provided metadata for a package at this level is:
@@ -45,18 +48,18 @@ The provided metadata for a package at this level is:
 - package version
 - python version
 - architecture
+- platform
 - digest of metadata and if it is available
 
-In some of the packages listed above the metadata is available.  Below is the metadata with the license and description omitted retrieved from <https://files.pythonhosted.org/packages/23/36/35495262d6faf673f2a0948cd2be2bf19f59877c45cba9d4c0b345c5288b/numpy-1.26.0-cp39-cp39-musllinux_1_1_x86_64.whl.metadata>
+In some of the packages listed above the metadata is available.  Below is the metadata with the license and description omitted retrieved from <https://files.pythonhosted.org/packages/34/60/31ab759c4305d0cd4aac316c7c580d955800980eb97c2c1e67502b2daed9/scipy-1.11.3-cp39-cp39-musllinux_1_1_x86_64.whl.metadata>
 
 ```txt
 Metadata-Version: 2.1
-Name: numpy
-Version: 1.26.0
-Summary: Fundamental package for array computing in Python
-Home-page: https://numpy.org
-Author: Travis E. Oliphant et al.
-Maintainer-Email: NumPy Developers <numpy-discussion@python.org>
+Name: scipy
+Version: 1.11.3
+Summary: Fundamental algorithms for scientific computing in Python
+Home-page: https://scipy.org/
+Maintainer-Email: SciPy Developers <scipy-dev@python.org>
 License: OMITTED (license)
 Classifier: Development Status :: 5 - Production/Stable
 Classifier: Intended Audience :: Science/Research
@@ -69,29 +72,61 @@ Classifier: Programming Language :: Python :: 3.9
 Classifier: Programming Language :: Python :: 3.10
 Classifier: Programming Language :: Python :: 3.11
 Classifier: Programming Language :: Python :: 3.12
-Classifier: Programming Language :: Python :: 3 :: Only
-Classifier: Programming Language :: Python :: Implementation :: CPython
-Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
 Classifier: Topic :: Scientific/Engineering
-Classifier: Typing :: Typed
 Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
 Classifier: Operating System :: POSIX
 Classifier: Operating System :: Unix
 Classifier: Operating System :: MacOS
-Project-URL: Homepage, https://numpy.org
-Project-URL: Documentation, https://numpy.org/doc/
-Project-URL: Source, https://github.com/numpy/numpy
-Project-URL: Download, https://pypi.org/project/numpy/#files
-Project-URL: Tracker, https://github.com/numpy/numpy/issues
+Project-URL: Homepage, https://scipy.org/
+Project-URL: Documentation, https://docs.scipy.org/doc/scipy/
+Project-URL: Source, https://github.com/scipy/scipy
+Project-URL: Download, https://github.com/scipy/scipy/releases
+Project-URL: Tracker, https://github.com/scipy/scipy/issues
 Requires-Python: <3.13,>=3.9
-Description-Content-Type: text/markdown
+Requires-Dist: numpy<1.28.0,>=1.21.6
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: pytest-timeout; extra == "test"
+Requires-Dist: pytest-xdist; extra == "test"
+Requires-Dist: asv; extra == "test"
+Requires-Dist: mpmath; extra == "test"
+Requires-Dist: gmpy2; extra == "test"
+Requires-Dist: threadpoolctl; extra == "test"
+Requires-Dist: scikit-umfpack; extra == "test"
+Requires-Dist: pooch; extra == "test"
+Requires-Dist: sphinx!=4.1.0; extra == "doc"
+Requires-Dist: pydata-sphinx-theme==0.9.0; extra == "doc"
+Requires-Dist: sphinx-design>=0.2.0; extra == "doc"
+Requires-Dist: matplotlib>2; extra == "doc"
+Requires-Dist: numpydoc; extra == "doc"
+Requires-Dist: jupytext; extra == "doc"
+Requires-Dist: myst-nb; extra == "doc"
+Requires-Dist: pooch; extra == "doc"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: typing_extensions; extra == "dev"
+Requires-Dist: types-psutil; extra == "dev"
+Requires-Dist: pycodestyle; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: cython-lint>=0.12.2; extra == "dev"
+Requires-Dist: rich-click; extra == "dev"
+Requires-Dist: click; extra == "dev"
+Requires-Dist: doit>=0.36.0; extra == "dev"
+Requires-Dist: pydevtool; extra == "dev"
+Provides-Extra: test
+Provides-Extra: doc
+Provides-Extra: dev
+Description-Content-Type: text/x-rst
 
 OMITTED (Description)
 ```
 
+Commands to install packages (e.g., `pip install`) only look at <https://pypi.org/simple/PACKAGE-NAME> and not catalog at <https://pypi.org/simple>.  Packages can be marked as "Yanked" and thus skipped when finding installation candidates.
+
 ## De-dupability :green_circle:
 
-The files are all hosted on https://files.pythonhosted.org and stored at locations based on their SHA-256 digest so the they support deuplication of packages.
+The packages are all hosted on <https://files.pythonhosted.org> and stored at paths based on their SHA-256 digest so the they support deduplication of packages.
 
 ## Multi-Architecture Support :green_circle:
 
@@ -99,7 +134,7 @@ The package name encodes the supported architectures.
 
 ## Dependency Tracking :yellow_circle:
 
-Up until recently PyPi did not serve metadata.  So a client tool would have to download the entire wheel to determine its dependencies.  With the metadata API the dependencies of a package are more easily obtained.  Here is the metadata for tensorflow.  The `Requires-Dist:` are the dependencies.
+Up until recently PyPi did not serve metadata.  So a client tool would have to download the entire wheel to determine its dependencies.  With the metadata API, the dependencies of a package are more easily obtained.  In the `scipy` example above, the `Requires-Dist:` entried denote the dependencies.  (Dist stands for Distribution which is what Python calls packages).
 
 ```txt
 Metadata-Version: 2.1
@@ -132,8 +167,10 @@ Requires-Dist: nvidia-nccl-cu11 (==2.16.5) ; extra == 'and-cuda'
 Requires-Dist: tensorrt (==8.5.3.1) ; extra == 'and-cuda'
 ```
 
-## Old Content To Be Removed Once Incorporated
+## Mapping to OCI
 
-The python package index specification requires an endpoint to list all the available packages (e.g., on PyPI https://pypi.org/simple/) and one for each package (e.g, for numpy https://pypi.org/simple/numpy/) which includes all the versions for all the architectures and platforms. Both endpoints use specially crafted HTML but a newer specification allows for the same information to be in JSON. The HTML contains hyperlinks to the package archive files. “pip install” only looks for packages by package name thus only uses the later interface but some tools and/or subcommands that search for packages might require the former. PyPI currently has a major design problem in that to determine the package dependencies the package manager has to fully download the package. The metadata is not available outside of the package archive. As such, there is very minimal metadata available about packages directly available from the python package index interface. It includes information like package name, version, architecture, platform, and python version all extracted from the filename of the archive. They also have the concept of “yanked” packages.
+The part of this interface that does map very well to OCI is how they store packages. In PyPI.org’s case they even reference packages (distribution files) by hash but this is not required by the specification for python packages repositories.
 
-The part of this interface that does map very well to OCI is that they store data. In PyPI.org’s case they even reference packages (distribution files) by hash. Storing each package (e.g., numpy) in its own repository and then using a single multi-arch image to represent each version of the package (e.g., reg.example.com/python/numpy:v1.4.5) works however with OCI one cannot reliably list repos under a given path (i.e., reg.example.com/v2/_catalog is not universally available and does not restrict by path) thus providing the package catalog is not possible when storing it in this format. An alternative storage format is to put all the packages in a single repository and then use the tag as the package name. Each multi-arch image then contains all the versions and all the arch/platforms for that project. By listing all the OCI tags one can easily list all the packages. This obviously feels like a hack. When storing python packages in the most straightforward way, OCI lacks the functionality to list all packages efficiently because it lacks the ability to list repositories or search across repositories.
+Storing each package (e.g., scipy) in its own repository and then using a single multi-arch image to represent each version of the package (e.g., `reg.example.com/python/scipy:v1.4.5`) works however with OCI one cannot reliably list repos under a given path (i.e., `reg.example.com/v2/_catalog` is not universally available and does not restrict by path) thus providing the package catalog is not possible when storing it in this format.
+
+An alternative storage format is to put all the packages in a single repository and then use the tag as the package name. Each multi-arch image then contains all the versions and all the arch/platforms for that project. By listing all the OCI tags one can easily list all the packages. This obviously feels like a hack. When storing python packages in the most straightforward way, **OCI lacks the functionality to list all packages efficiently because it lacks the ability to list repositories or search across repositories**.
