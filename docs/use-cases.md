@@ -8,7 +8,7 @@ A list of common use cases that are implemented across various package managers.
 | - | - | - | - | - | - | - | - | - | - |
 | **[List of Packages](#list-of-packages)**                   | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: |  :red_circle:* | :white_circle: | :white_circle: |
 | **[Filter a List of Packages](#filter-a-list-of-packages)** | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: |  :red_circle:  | :white_circle: | :white_circle: |
-| **[List versions](#list-versions)**                         | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :green_circle:*| :white_circle: | :white_circle: |
+| **[List versions](#list-versions)**                         | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :yellow_circle:*| :white_circle: | :white_circle: |
 | **[De-dupability](#de-dupability)**                         | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :green_circle: | :white_circle: | :white_circle: |
 | **[Multi-Arch Support](#multi-architecture-support)**       | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :green_circle: | :white_circle: | :white_circle: |
 | **[Dependency Tracking](#dependency-tracking)**             | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :green_circle: | :white_circle: | :white_circle: |
