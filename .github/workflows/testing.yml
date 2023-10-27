@@ -20,3 +20,11 @@ jobs:
         with:
           # config: ./markdownlint-cli2.jsonc
           globs: "**/*.md"
+  conformance:
+    name: Conformance
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: test
+        run: |
+          make conformance
