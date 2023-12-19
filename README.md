@@ -37,7 +37,7 @@ The CNCF Artifacts Working Group is under the App Delivery Technical Advisory Gr
 
 ## Chairs
 
-- Alex Flom (@afflom)
+- Andrew Block (@sabre1041)
 - Ramkumar Chinchani (@rchincha)
 
 ## Getting Started
