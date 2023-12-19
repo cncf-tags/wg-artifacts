@@ -31,14 +31,32 @@ Old working document of the [charter](https://docs.google.com/document/d/1w_lo2R
 
 <!-- https://contribute.cncf.io/maintainers/governance/charter/ -->
 
-The CNCF Artifacts Working Group is under the App Delivery Technical Advisory Group hosted by the [Cloud Native Computing Foundation (CNCF)](https://cncf.io).
-
-`https://github.com/cncf/tag-app-delivery/tree/main/artifacts-wg`
+The CNCF Artifacts Working Group is under the [App Delivery Technical Advisory Group](https://github.com/cncf/tag-app-delivery/tree/main/artifacts-wg) hosted
+by the [Cloud Native Computing Foundation (CNCF)](https://cncf.io).
 
 ## Chairs
 
 - Alex Flom (@afflom)
 - Ramkumar Chinchani (@rchincha)
+
+## Use Cases
+
+<!-- embed docs/use-cases.md -->
+
+A list of common use cases that are implemented across various package managers.
+
+<!---                                                         | Alpine          | Cargo          | Carvel         | Helm           | Maven          | npm            | OCI             | PyPi            | rpm            | --->
+<!-- markdownlint-disable-next-line MD033 -->
+| Use Case /<BR>Package Manager                               | [Alpine](./pkgmgr/alpine.md) </BR>(APK) | Cargo | Carvel | Helm | Maven | npm | [OCI](./pkgmgr/oci.md) | [PyPi](./pkgmgr/pypi.md) | rpm |
+| - | - | - | - | - | - | - | - | - | - |
+| **[List of Packages](docs/use-cases.md#list-of-packages)**                   | :green_circle:  | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: |  :red_circle:*  | :green_circle:  | :white_circle: |
+| **[Filter a List of Packages](docs/use-cases.md#filter-a-list-of-packages)** | :green_circle:  | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: |  :red_circle:   | :yellow_circle: | :white_circle: |
+| **[List versions](docs/use-cases.md#list-versions)**                         | :red_circle:    | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :yellow_circle:*| :green_circle:  | :white_circle: |
+| **[De-dupability](docs/use-cases.md#de-dupability)**                         | :yellow_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :green_circle:  | :green_circle:  | :white_circle: |
+| **[Multi-Arch Support](docs/use-cases#multi-architecture-support)**       | :green_circle:  | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :green_circle:  | :green_circle:  | :white_circle: |
+| **[Dependency Tracking](docs/use-cases.md#dependency-tracking)**             | :green_circle:  | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :green_circle:  | :green_circle:  | :white_circle: |
+| **\<use-case\>**                                            | :white_circle:  | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle:  | :yellow_circle: | :white_circle: |
+<!---                                                         | Alpine          | Cargo          | Carvel         | Helm           | Maven          | npm            | OCI             | PyPi            | rpm            | --->
 
 ## Getting Started
 
@@ -50,6 +68,21 @@ include:
 * a few simple examples of use
 * basic prerequisites
 -->
+
+Currently, the working group is evaluating the current state of various
+software ecosystems and whether it is feasible to standardize and also
+suggest changes.
+
+```bash
+# Clone this repository
+git clone https://github.com/cncf-tags/wg-artifacts.git
+
+# Enter cloned dir
+cd wg-artifacts
+
+# Check metadata query support across software ecosystems
+make conformance
+```
 
 ## Contributing
 <!-- Template: https://github.com/cncf/project-template/blob/main/CONTRIBUTING.md -->
@@ -64,27 +97,7 @@ started contributing, please see our [Contributor Guide](CONTRIBUTING.md).
 <!-- More information about creating your scope with links to examples -->
 <!-- https://contribute.cncf.io/maintainers/governance/charter/ -->
 
-### In Scope
-
-[TODO: PROJECTNAME] is intended to [TODO: Core functionality]. As such, the
-project will implement or has implemented:
-
-- [TODO: High-level Item 1]
-- [TODO: High-level Item 2]
-- [TODO: High-level Item 3]
-
-### Out of Scope
-
-[TODO: PROJECTNAME] will be used in a cloud native environment with other
-tools. The following specific functionality will therefore not be incorporated:
-
-- [TODO: Excluded function 1]
-- [TODO: Excluded function 2]
-
-[TODO: PROJECTNAME] implements [TODO: List of major features, existing or
-planned], through [TODO: Implementation
-requirements/language/architecture/etc.]. It will not cover [TODO: short list
-of excluded items]
+- Define a set of query interfaces that can standardized across various software ecosystems.
 
 ## Communications
 
@@ -93,10 +106,6 @@ can join, and there should be several ways that users and contributors can reach
 If you have recurring/regular meetings, list those or a link to a publicy-readable calendar so that
 prospective contributors know when and where to engage with you. -->
 
-[TODO: Details (with links) to meetings, mailing lists, Slack, and any other communication channels]
-
-- User Mailing List:
-- Developer Mailing List:
 - Slack Channel:
 
 [Slack channel](https://cloud-native.slack.com/archives/C04UQDWS4M7)
@@ -105,18 +114,15 @@ prospective contributors know when and where to engage with you. -->
 
 This working group meets on 2nd and 4th Friday of each month @ 1700 UTC
 
-    Zoom: https://zoom.us/j/7276783015?pwd=R0RJMkRzQ1ZjcmE0WERGcTJTOEVyUT09
-    Passcode: 77777
+Zoom: [https://zoom.us/j/7276783015?pwd=R0RJMkRzQ1ZjcmE0WERGcTJTOEVyUT09](https://zoom.us/j/7276783015?pwd=R0RJMkRzQ1ZjcmE0WERGcTJTOEVyUT09)
+Passcode: 77777
 
-    Agendas and notes: https://docs.google.com/document/d/1E7iKPOuyA1jxPe8vDG8aPd8jtnCEbpDpCifXDvDCnA0/
+Agendas and notes: [https://docs.google.com/document/d/1E7iKPOuyA1jxPe8vDG8aPd8jtnCEbpDpCifXDvDCnA0/](https://docs.google.com/document/d/1E7iKPOuyA1jxPe8vDG8aPd8jtnCEbpDpCifXDvDCnA0/)
 
 [CNCF Community](https://community.cncf.io/tag-app-delivery/)
 
 WG Artifacts - Project Meeting
 TAG App Delivery
-
-- Social Media:
-- Other Channel(s), If Any:
 
 ## Resources
 
@@ -125,7 +131,7 @@ TAG App Delivery
 ## License
 
 <!-- Template: https://github.com/cncf/project-template/blob/main/LICENSE -->
-This project is licensed under [TODO: Add name of license and link to your LICENSE file]
+This project is licensed under [Apache 2.0](LICENSE)
 
 ## Conduct
 
