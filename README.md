@@ -97,7 +97,7 @@ started contributing, please see our [Contributor Guide](CONTRIBUTING.md).
 <!-- More information about creating your scope with links to examples -->
 <!-- https://contribute.cncf.io/maintainers/governance/charter/ -->
 
-- Define a set of query interfaces that can standardized across various software ecosystems.
+- Define a set of [query interfaces](docs/search/search.md) that can standardized across various software ecosystems.
 
 ## Communications
 
