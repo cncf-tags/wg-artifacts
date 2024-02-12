@@ -36,7 +36,7 @@ by the [Cloud Native Computing Foundation (CNCF)](https://cncf.io).
 
 ## Chairs
 
-- Alex Flom (@afflom)
+- Andrew Block (@sabre1041)
 - Ramkumar Chinchani (@rchincha)
 
 ## Use Cases
